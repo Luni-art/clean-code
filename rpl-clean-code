@@ -3,7 +3,7 @@ from django.shortcuts import render
 TEMPLATE_PREFIX = "blogblogging/"
 
 def render_page(request, template_name):
-    """Helper untuk render template dengan prefix folder"""
+    """Helper untuk merender halaman dengan template prefix"""
     return render(request, f"{TEMPLATE_PREFIX}{template_name}")
 
 
