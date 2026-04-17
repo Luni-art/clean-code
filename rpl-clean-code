@@ -1,0 +1,10 @@
+from django.shortcuts import render
+
+def index(request):
+    return render(request, 'blogblogging/index.html') 
+
+def galeri(request):
+    return render(request, 'blogblogging/galeri.html')
+
+def kontak(request):
+    return render(request, 'blogblogging/kontak.html')
